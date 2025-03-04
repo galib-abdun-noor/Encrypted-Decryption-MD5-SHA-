@@ -12,22 +12,29 @@
 **Test Results:**
 
 **Encryption Success:**
+
 ![image](https://github.com/user-attachments/assets/24d09a41-ecda-49fb-9a9a-060c1b96eddf)
  
 An encrypted JSON file is created with the information below.
 {"username": "foundationofprivacy6413", 
+
 "iv": "6+SiNAUBD1Ohfw7vxLr86A==", 
+
 "encrypted_message": "oawEJlG30UbF2WC3BR5qvYWmtrpkL7zCzHLX3uck7JY=", 
+
 "hash": "b630e283fb916c2c2a8939fa249437dd7812fdca41b5d48f904504292ce6e8d7"}
 
 After decrypting with the same username and password I get the below output.
+
 ![image](https://github.com/user-attachments/assets/771eb61d-50f3-47c4-8052-547a5a24398a)
  
 Another example with MD5
 **Encryption Success:**
+
  ![image](https://github.com/user-attachments/assets/897d6f32-b5ab-49f6-b119-dc8c00347e87)
 
 **Decryption Success:**
+
  ![image](https://github.com/user-attachments/assets/fbfafc85-7224-4fff-a2cb-e29b0bfe2314)
 
 # Task 2: SHA-256 Hash Verification of Private Key
@@ -40,6 +47,7 @@ Another example with MD5
 
 **Test Results:**
 **Hash Verification Output:**
+
  ![image](https://github.com/user-attachments/assets/cb67d822-21f6-4297-8cfc-48061a5f9fd7)
 
 
