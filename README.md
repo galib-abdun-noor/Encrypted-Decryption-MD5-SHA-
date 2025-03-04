@@ -2,9 +2,13 @@
 **Implementation Steps:** 
 
 •	Key Derivation: A 256-bit AES key is generated from a user-provided password using SHA-256 or MD5.
+
 •	AES Encryption: Messages are encrypted using AES-256 in CBC mode with a randomly generated IV (Initialization Vector).
+
 •	Integrity Check: The encrypted message is hashed using SHA-256/MD5, and both the encrypted message and hash are stored in a JSON file.
+
 •	Decryption Process: The integrity hash is verified before decrypting the message. If the hash does not match, the program alerts the user of possible tampering.
+
 Test Results:
 Encryption Success:
 ![image](https://github.com/user-attachments/assets/24d09a41-ecda-49fb-9a9a-060c1b96eddf)
