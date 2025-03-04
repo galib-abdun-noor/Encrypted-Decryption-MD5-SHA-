@@ -30,6 +30,7 @@ After decrypting with the same username and password I get the below output.
 ![image](https://github.com/user-attachments/assets/771eb61d-50f3-47c4-8052-547a5a24398a)
  
 Another example with MD5
+
 **Encryption Success:**
 
  ![image](https://github.com/user-attachments/assets/897d6f32-b5ab-49f6-b119-dc8c00347e87)
@@ -39,6 +40,7 @@ Another example with MD5
  ![image](https://github.com/user-attachments/assets/fbfafc85-7224-4fff-a2cb-e29b0bfe2314)
 
 # Task 2: SHA-256 Hash Verification of Private Key
+
 **Implementation Steps:**
 
 1.	Read the private_key.pem file.
@@ -47,17 +49,24 @@ Another example with MD5
 4.	Print whether the hash matches or not.
 
 **Test Results:**
+
 **Hash Verification Output:**
 
  ![image](https://github.com/user-attachments/assets/cb67d822-21f6-4297-8cfc-48061a5f9fd7)
 
 
 # Task 3: RSA Decryption of Ciphertext
+
 **Implementation Steps:**
+
 •	Read the encrypted message from encrypted_message.txt.
+
 •	Load Alice's private key from private_key.pem.
+
 •	Decode the encrypted message (Base64).
+
 •	Decrypt the message using RSA (PKCS1_OAEP).
+
 •	Print the original message.
 
  ![image](https://github.com/user-attachments/assets/4e5e041b-fe24-4084-a219-c87c0c0187fd)
