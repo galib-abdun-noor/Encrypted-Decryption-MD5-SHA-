@@ -1,5 +1,5 @@
-Task 1: AES Encryption & Integrity Check
-Implementation Steps:
+# Task 1: AES Encryption & Integrity Check
+**Implementation Steps:**
 •	Key Derivation: A 256-bit AES key is generated from a user-provided password using SHA-256 or MD5.
 •	AES Encryption: Messages are encrypted using AES-256 in CBC mode with a randomly generated IV (Initialization Vector).
 •	Integrity Check: The encrypted message is hashed using SHA-256/MD5, and both the encrypted message and hash are stored in a JSON file.
@@ -24,8 +24,8 @@ Encryption Success:
 Decryption Success:
  ![image](https://github.com/user-attachments/assets/fbfafc85-7224-4fff-a2cb-e29b0bfe2314)
 
-Task 2: SHA-256 Hash Verification of Private Key
-Implementation Steps:
+#Task 2: SHA-256 Hash Verification of Private Key
+**Implementation Steps:**
 
 1.	Read the private_key.pem file.
 2.	Compute the SHA-256 hash of the key’s contents.
@@ -37,7 +37,7 @@ Hash Verification Output:
  ![image](https://github.com/user-attachments/assets/cb67d822-21f6-4297-8cfc-48061a5f9fd7)
 
 
-Task 3: RSA Decryption of Ciphertext
+#Task 3: RSA Decryption of Ciphertext
 Implementation Steps:
 •	Read the encrypted message from encrypted_message.txt.
 •	Load Alice's private key from private_key.pem.
