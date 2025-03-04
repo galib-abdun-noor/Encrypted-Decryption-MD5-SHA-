@@ -16,6 +16,7 @@
 ![image](https://github.com/user-attachments/assets/24d09a41-ecda-49fb-9a9a-060c1b96eddf)
  
 An encrypted JSON file is created with the information below.
+
 {"username": "foundationofprivacy6413", 
 
 "iv": "6+SiNAUBD1Ohfw7vxLr86A==", 
