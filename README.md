@@ -24,7 +24,7 @@ Encryption Success:
 Decryption Success:
  ![image](https://github.com/user-attachments/assets/fbfafc85-7224-4fff-a2cb-e29b0bfe2314)
 
-#Task 2: SHA-256 Hash Verification of Private Key
+# Task 2: SHA-256 Hash Verification of Private Key
 **Implementation Steps:**
 
 1.	Read the private_key.pem file.
@@ -37,7 +37,7 @@ Hash Verification Output:
  ![image](https://github.com/user-attachments/assets/cb67d822-21f6-4297-8cfc-48061a5f9fd7)
 
 
-#Task 3: RSA Decryption of Ciphertext
+# Task 3: RSA Decryption of Ciphertext
 Implementation Steps:
 •	Read the encrypted message from encrypted_message.txt.
 •	Load Alice's private key from private_key.pem.
